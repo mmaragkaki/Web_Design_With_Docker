@@ -1,0 +1,148 @@
+body{
+    background:linear-gradient(45deg,  #677786,#c0d9e7); 
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.topnav {
+    list-style-type: none;
+    background-color: rgb(70, 83, 95);
+    overflow: hidden;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin: -9;
+    padding: 5px 15px;
+    
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #9c9a9a;
+    color: rgb(77, 77, 80);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav p{
+    float: right;
+    color: #f2f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.searchbox {
+    width: 350px;
+    height: 250px;
+    background: linear-gradient(80deg,#7290a1, #677786);
+    color: #fff;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 0px 75px ;
+    border-radius: 40px;
+}   
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.searchbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;    
+}
+
+.searchbox input{
+    width: 80%;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.searchbox input[type="text"]
+{
+    border: none;
+    background:#d3ece369;
+    outline: none;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.searchbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #d3ece369;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.searchbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #377d9e;
+    color: #000;
+}
+
+
+.signout{
+    right: 17%;
+    position: absolute;
+}
+
+
+.container{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+table{
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1)
+}
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+th {
+        background-color: rgb(70, 83, 95);
+    }
+
+tr :hover {
+        background-color: rgba(255,255,255,0.3);
+    }
+td :hover {
+    position: relative;
+}
+.avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float:right;
+}
